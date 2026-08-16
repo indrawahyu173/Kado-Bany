@@ -8,10 +8,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 
 # 2. Pengaturan dasar halaman website
-st.set_page_config(page_title="Kado Spesial Buat Kamu ❤️", page_icon="🎁", layout="centered")
+st.set_page_config(page_title="Web Pertamaku Isinya Kamuuu ❤️", page_icon="🎁", layout="centered")
 
 # 3. Bagian Header / Judul
-st.markdown("<h1 style='text-align: center; color: #ff4b4b;'>Perjalanan Kita ❤️</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #ff4b4b;'>Foto dan Video Kita ❤️</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 18px;'>Kumpulan memori indah, tawa, dan cerita yang kita lewati berdua.</p>", unsafe_allow_html=True)
 st.divider()
 
@@ -33,7 +33,7 @@ st.divider()
 # 5. Bagian Video (1 Video Utama)
 st.subheader("Video Spesial 🎬")
 st.video(os.path.join(ASSETS_DIR, "video1.mp4"))
-st.caption("Momen spesial kita - Tonton sampai habis ya!")
+st.caption("Ini Video Yang Paling Aku Suka Di Folder Favorite Akuu - Kangen Banget Sama Kamuu")
 
 # 6. Footer
 st.divider()
