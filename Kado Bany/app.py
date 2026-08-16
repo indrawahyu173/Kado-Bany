@@ -21,12 +21,12 @@ st.subheader("Memori Berdua 📸")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image(os.path.join(ASSETS_DIR, "foto1.jpeg"), caption="Momen 1 - Senyum manisnya")
-    st.image(os.path.join(ASSETS_DIR, "foto3.jpeg"), caption="Momen 3 - Jalan-jalan seru")
+    st.image(os.path.join(ASSETS_DIR, "foto1.jpeg"), caption="Momen 1 - Pas lagi Foto Studio setelah Indra dapet Badge ADX")
+    st.image(os.path.join(ASSETS_DIR, "foto3.jpeg"), caption="Momen 2 - Senyum Manisnya")
 
 with col2:
-    st.image(os.path.join(ASSETS_DIR, "foto2.jpeg"), caption="Momen 2 - Pas lagi ngedate")
-    st.image(os.path.join(ASSETS_DIR, "foto4.jpeg"), caption="Momen 4 - Kenangan tak terlupakan")
+    st.image(os.path.join(ASSETS_DIR, "foto2.jpeg"), caption="Momen 3 - Pas lagi ngedate")
+    st.image(os.path.join(ASSETS_DIR, "foto4.jpeg"), caption="Momen 4 - Kenangan tak terlupakan pas indra laptopnya rusak hehe")
 
 st.divider()
 
